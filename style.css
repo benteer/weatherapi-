@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+}
+
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color:  black;
+    display: flex;
+
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.card
+{
+    width: 90%;
+    background: blue;
+    max-width: 470px;
+    color: black;
+    max-width: 480px;
+    padding: 45px 38px;
+    margin: 100px auto 0;
+    border-radius:20px ;
+    text-align: center;
+    box-shadow: 100px solid black;
+}
+
+.card input{
+    padding: 10px 10px;
+    border: 7px solid black;
+    border-radius: 10px;
+    top: 1px;
+  
+    color: white;
+}
+.card button
+{
+    border-radius: 20px;
+    font-size: 20px;
+    display: flexbox;
+
+}
